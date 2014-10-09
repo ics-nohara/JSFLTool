@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <link id="mainstyle" rel="stylesheet" type="text/css" href="./css/dark-style.css">
+        <link id="topcoat" rel="stylesheet" type="text/css"
+            href="./css/topcoat-desktop-dark.css">
+            <script src="./lib/CSInterface-4.0.0.js"></script>
+            <script src="./lib/jquery-1.9.1.js"></script>
+            <script src="./js/change_theme.js"></script>
+            <script src="./js/jsfl_tool.js"></script>
+            <title>JSFLTool</title>
+        </head>
+        <body onLoad="onLoadTheme()" >
+            <div class="item_area" class="combo">
+              <select id="folder_list" size="1" style="width: 100%"></select>
+              <select id="jsfl_list" size="5" style="width: 100%;"></select>
+            <button id="button_execute" class="topcoat-button" style="width: 100%" >▶</button>
+        </div>
+        <div id="setting_area">
+            <div id="setting_list">
+                <div id="setting_button">
+                    <button id="menu_add_local" class="topcoat-button">Add local directory +</button>
+                </div>
+                <hr id="menu_separate">
+                <button id="button_rename_item" class="topcoat-button">Rename</button>
+                <button id="button_open_item" class="topcoat-button">Reveal in Finder/Explorer</button>
+                
+                <button id="button_remove_item" class="topcoat-button">Remove</button>
+            </div>
+            <button id="menu_icon" class="topcoat-button" onClick=""><img src="./img/setting_icon.png"></button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+body {
+  color: #d7d7d7;
+  font: 12px;
+  overflow: hidden;
+}
+hr {
+  border: 1px #d7d7d7 dotted;
+}
+div {
+  color: #d7d7d7;
+  font: 11px;
+}
+.combo {
+  border-bottom: 1px solid #595b5b;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+}
+#setting_button {
+  text-shadow: 0 -1px 0 #303233;
+  padding: 5px;
+  margin: 0px 0px 0px 0px;
+}
+#setting_list {
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  background: #595b5b;
+  box-shadow: 0 0 0 1px #303233;
+  border: none;
+  border-top: 2px solid #666767;
+  color: #d7d7d7;
+  text-shadow: 0 -1px 0 #303233;
+  padding: 5px;
+  margin: 0px 0px 0px 0px;
+  -webkit-appearance: none;
+  list-style-type: none;
+}
+#setting_icon {
+  position: relative;
+}
+#menu_icon {
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background: url(img/setting_icon.png);
+  width: 35px;
+}
+select:focus {
+  width: auto;
+}
+#folder_list {
+  background: #595b5b;
+  box-shadow: 0 0 0 1px #303233;
+  border: none;
+  border-top: 2px solid #666767;
+  color: #d7d7d7;
+  text-shadow: 0 -1px 0 #303233;
+  padding: 3px 20px 4px 8px;
+  -webkit-appearance: none;
+}
+dd {
+  color: #d7d7d7;
+  font: 11px;
+  padding-left: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
