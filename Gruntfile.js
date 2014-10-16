@@ -22,6 +22,15 @@ module.exports = function(grunt) {
                 hxml : 'compile.hxml'
             }
         },
+        notify: {
+          haxe: {
+            options: {
+              title:   'haxe通知'
+            , message: '成功しました！'
+            }
+          }
+        },
+
         // -------------------------------
         // watchの設定
         watch: [ {
@@ -30,7 +39,7 @@ module.exports = function(grunt) {
         },
         {
             files : ['src/haxe/**'],
-            tasks : ['haxe:compile']
+            tasks : ['haxe:compile','notify:haxe']
         }]
     });
 };
