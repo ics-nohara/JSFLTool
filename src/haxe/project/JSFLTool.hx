@@ -66,13 +66,11 @@ class JSFLTool {
 
 		//	ドキュメント変更時のイベント
 		jsflUtility.addEventListener("com.adobe.events.flash.documentChanged",documentChanged);
-
+		jsflUtility.addEventListener("com.adobe.events.flash.documentSaved",documentChanged);
 
 		closeMenu();
 
 		addResizeEvent();
-
-
 
 		jsflUtility.initXML("menu.xml",initCallback);
 	}

@@ -163,6 +163,7 @@ project.JSFLTool = function() {
 	this.fileSelecter.on("click",null,$bind(this,this.closeMenu));
 	this.fileSelecter.keypress($bind(this,this.fileSelecter_keyPress));
 	this.jsflUtility.addEventListener("com.adobe.events.flash.documentChanged",$bind(this,this.documentChanged));
+	this.jsflUtility.addEventListener("com.adobe.events.flash.documentSaved",$bind(this,this.documentChanged));
 	this.closeMenu();
 	this.addResizeEvent();
 	this.jsflUtility.initXML("menu.xml",$bind(this,this.initCallback));
