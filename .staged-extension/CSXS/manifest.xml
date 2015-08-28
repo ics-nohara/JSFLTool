@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ExtensionManifest Version="4.0" ExtensionBundleId="JSFLTool" ExtensionBundleVersion="0.9.2"
+<ExtensionManifest Version="4.0" ExtensionBundleId="JSFLTool" ExtensionBundleVersion="0.9.3"
 		ExtensionBundleName="JSFLTool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Author>
 		<![CDATA[Nozomi Nohara]]>
@@ -9,7 +9,7 @@
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
-			<Host Name="FLPR" Version="[13.1,14.0]" />
+			<Host Name="FLPR" Version="13.1" />
 		</HostList>
 		<LocaleList>
 			<Locale Code="All" />
